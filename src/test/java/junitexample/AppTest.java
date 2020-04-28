@@ -17,7 +17,7 @@ class AppTest {
     }
 
     @Test
-    @DisplayName("Test for ")
+    @DisplayName("Test for minimal element of an array")
     public void test_find_min_1() {
       int[] a = {5, 1, 7};
       int res = App.find_min(a);
@@ -25,7 +25,9 @@ class AppTest {
       assertEquals(res, 1, "The minimum from 5, 1, 7 should be 1");
     }
 
-    @Test public void test_insert_1() {
+    @Test
+    @DisplayName("Test for inserting an element into an array")
+    public void test_insert_1() {
       int[] x = {2, 7};
       int n = 6;
       int[] res = App.insert(x, n);
