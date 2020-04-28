@@ -22,7 +22,7 @@ class AppTest {
       int[] a = {5, 1, 7};
       int res = App.find_min(a);
       //assertTrue(res == 1, "The minimum from 5, 1, 7 should be 1");
-      assertEquals(res, 1, "The minimum from 5, 1, 7 should be 1");
+      assertEquals(res, 2, "The minimum from 5, 1, 7 should be 1");
     }
 
     @Test
