@@ -12,4 +12,5 @@ The steps I followed to set it up from scratch:
 - checked the results of the test in the local folder ./build/reports/tests/test/index.html
 - created a git repository in the "junitexample"
 - pushed the local repository into GitHub
-- used a GitHub Action to do the build and test of the project in GitHub - see https://help.github.com/en/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+- used a GitHub Action to do the build and test of the project in GitHub, automatically after each commit to the repository - see https://help.github.com/en/actions/language-and-framework-guides/building-and-testing-java-with-gradle) 
+- the results of the build and tests (including failed ones) can be checked in the "Actions" tab in GitHub after each commit
