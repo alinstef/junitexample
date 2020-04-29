@@ -31,7 +31,7 @@ class AppTest {
       int[] x = {2, 7};
       int n = 6;
       int[] res = App.insert(x, n);
-      int[] expected = {2, 6, 7};
+      int[] expected = {2, 5, 7};
       //assertTrue(Arrays.equals(expected, res));
       assertArrayEquals(expected, res, "The insert did not work properly");
     }
