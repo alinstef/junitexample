@@ -26,7 +26,7 @@ public class App {
       int[] y = new int[x.length + 1];
       int i;
       for (i = 0; i < x.length; i++) {
-        if (n < x[i]) break;
+        if (n > x[i]) break;
         y[i] = x[i];
       }
       y[i] = n;
