@@ -5,7 +5,7 @@ package junitexample;
 
 public class App {
     public String getGreeting() {
-        return 1; // "Hello, world!";
+        return "Hello, world!";
     }
 
     // requires: a is non-null, non-empty
@@ -14,7 +14,7 @@ public class App {
          int x, i;
          x = a[0];
          for (i = 1; i < a.length; i++) {
-           if (a[i] < x)
+           if (a[i] > x)
               x = a[i];
          }
          return x;
