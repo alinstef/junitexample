@@ -5,7 +5,7 @@ package junitexample;
 
 public class App {
     public String getGreeting() {
-        return 1; //"Hello, world!";
+        return "Hello, world!";
     }
 
     // requires: a is non-null, non-empty
