@@ -9,7 +9,7 @@ public class App {
     }
 
     // requires: a is non-null, non-empty
-    // ensures:  result is equal to a minimal element in a
+    // ensures: result is equal to a minimal element in a
     public static int find_min(int[] a) {
          int x, i;
          x = a[0];
