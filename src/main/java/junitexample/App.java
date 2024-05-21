@@ -8,7 +8,7 @@ public class App {
         return "Hello, world!";
     }
 
-    // requires: a is non-null, non-empty
+    // requires: a is non-null, non-empty 
     // ensures: result is equal to a minimal element in a
     public static int find_min(int[] a) {
          int x, i;
