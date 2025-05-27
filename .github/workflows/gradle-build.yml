@@ -34,10 +34,3 @@ jobs:
         path: |
             **/build/reports/
             **/build/test-results/
-
-    - name: Test Reporter
-      uses: dorny/test-reporter@v2.1.0
-      with:
-        name: Test Results  # Provide a name for the report
-        path: '**/build/test-results/*.xml'  # Adjust the path to match your test result files
-        reporter: java-junit  # Specify the correct reporter format
