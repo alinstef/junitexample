@@ -37,6 +37,9 @@ application {
 }
 
 test {
-    // Use junit platform for unit tests
     useJUnitPlatform()
+    reports {
+        junitXml.enabled = true
+        html.enabled = true
+    }
 }
