@@ -25,7 +25,7 @@ jobs:
     #- name: Build with Gradle
     #  run: ./gradlew build
     - name: Run Tests
-      run: ./gradlew test
+      run: ./gradlew test || true # Ensures workflow continues even if tests fail
     - name: Store reports
       uses: actions/upload-artifact@v4
       with:
@@ -33,7 +33,6 @@ jobs:
         path: |
             build/reports/
             build/test-results/
-
     - name: Test Reporter
       uses: dorny/test-reporter@v2.1.0
       with:
