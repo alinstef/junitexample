@@ -11,7 +11,7 @@ public class App {
     // requires: a is non-null, non-empty 
     // ensures: result is equal to a minimal element in a
     public static int find_min(int[] a) {
-         int x, i;
+         int x, i; 
          x = a[0];
          for (i = 1; i < a.length; i++) {
            if (a[i] > x)
